@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".alertatercero">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/background_dark" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/txtTercero"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:text="Teléfono"
+            android:ems="10"
+            android:id="@+id/txtNombreTercero"
+            android:layout_below="@+id/txtTercero"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:text="Dirección"
+            android:ems="10"
+            android:id="@+id/txtDirecc"
+            android:layout_below="@+id/txtNombreTercero"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffffff" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sp_distrito"
+            android:ems="10"
+            android:layout_below="@+id/txtDirecc"
+            android:layout_marginTop="20dp"
+            android:prompt="@string/distrito_prompt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnSerenazgo"
+            android:layout_below="@+id/sp_distrito"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/policia"
+            android:onClick="alertaSerenazgo" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnBomberos"
+            android:layout_alignTop="@+id/btnSerenazgo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="43dp"
+            android:layout_marginEnd="43dp"
+            android:background="@drawable/bomberos3"
+            android:onClick="alertaBomberos" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:id="@+id/btnSalir"
+            android:layout_below="@+id/btnSerenazgo"
+            android:layout_toLeftOf="@+id/btnBomberos"
+            android:layout_toStartOf="@+id/btnBomberos"
+            android:layout_marginTop="33dp"
+            android:onClick="salir" />
+
+
+    </RelativeLayout>
+</ScrollView>

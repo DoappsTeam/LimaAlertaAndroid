@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".alerta">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo1">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/background_dark" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamara"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/icono_camera"
+            android:onClick="capturarFoto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Agregar Foto"
+            android:id="@+id/lblFoto"
+            android:layout_alignBottom="@+id/btnCamara"
+            android:layout_toRightOf="@+id/btnCamara"
+            android:layout_alignTop="@+id/btnCamara"
+            android:textColor="#ffffffff"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAudio"
+            android:layout_below="@+id/btnCamara"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/micro"
+            android:onClick="capturarAudio" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Agregar Audio"
+            android:id="@+id/lblAudio"
+            android:layout_alignBottom="@+id/btnAudio"
+            android:layout_toRightOf="@+id/btnAudio"
+            android:layout_alignTop="@+id/btnAudio"
+            android:textColor="#ffffffff"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alertar por otra Persona"
+            android:id="@+id/btnTercero"
+            android:layout_below="@+id/btnGrabar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:onClick="alertaTercero" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnSerenazgo"
+            android:layout_below="@+id/btnTercero"
+            android:layout_alignLeft="@+id/btnAudio"
+            android:layout_alignStart="@+id/btnAudio"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/policia"
+            android:onClick="alertaSerenazgo" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnBomberos"
+            android:layout_alignTop="@+id/btnSerenazgo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="43dp"
+            android:layout_marginEnd="43dp"
+            android:background="@drawable/bomberos3"
+            android:onClick="alertaBomberos" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:id="@+id/btnSalir"
+            android:layout_below="@+id/btnSerenazgo"
+            android:layout_toLeftOf="@+id/btnBomberos"
+            android:layout_toStartOf="@+id/btnBomberos"
+            android:layout_marginTop="33dp"
+            android:onClick="salir" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnGrabar"
+            android:background="@drawable/rec"
+            android:layout_below="@+id/lblAudio"
+            android:layout_alignLeft="@+id/lblAudio"
+            android:layout_alignStart="@+id/lblAudio"
+            android:layout_marginTop="23dp"
+            android:onClick="grabar"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnDetener"
+            android:background="@drawable/stop"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@+id/btnGrabar"
+            android:layout_toRightOf="@+id/btnGrabar"
+            android:layout_toEndOf="@+id/btnGrabar"
+            android:onClick="stop"/>
+
+
+    </RelativeLayout>
+</ScrollView>

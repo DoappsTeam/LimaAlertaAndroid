@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SistemaLimAlert</string>
+    <string name="action_settings">Settings</string>
+    <string name="distrito">Distrito</string>
+    <string name="providers"></string>
+    <string name="distrito_prompt">Elija un Distrito</string>
+</resources>
+
+
+
+
