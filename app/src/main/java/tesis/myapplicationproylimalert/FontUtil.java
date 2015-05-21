@@ -11,4 +11,8 @@ public class FontUtil {
     public static Typeface setBebas(Context context){
         return Typeface.createFromAsset(context.getAssets(), "fonts/bebeas.ttf");
     }
+
+    public static Typeface setMotion(Context context){
+        return Typeface.createFromAsset(context.getAssets(),"fonts/motioncontrol_boldItalic.otf");
+    }
 }
