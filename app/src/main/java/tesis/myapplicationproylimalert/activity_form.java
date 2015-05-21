@@ -6,11 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 /**
  * Created by Soul on 19/04/2015.
  */
 public class activity_form extends Activity {
+    private TextView lblTituloForm;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +24,9 @@ public class activity_form extends Activity {
                 this, R.array.distritos, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+
+        lblTituloForm = (TextView) findViewById(R.id.lblTituloForm);
+        lblTituloForm.setTypeface(FontUtil.setBebas(this));
     }
 
     public void acuerdo(View view) {
