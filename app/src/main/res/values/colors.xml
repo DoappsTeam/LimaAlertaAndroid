@@ -6,6 +6,9 @@
     <color name="peter_river">#3498db</color>
     <color name="wet_asphalt">#34495e</color>
 
+    <color name="jelly_bean">#2D5050</color>
+
+
     <color name="gray_pressed">#2C3E50</color>
     <color name="gray">#22313F</color>
 
@@ -15,6 +18,7 @@
     <color name="blue_pressed">#2C3E50</color>
     <color name="blue">#22313F</color>
 
-    <color name="orange">#22313F</color>
+    <color name="ebony_clay">#22313F</color>
+    <color name="ming">#336E7B</color>
 
 </resources>
