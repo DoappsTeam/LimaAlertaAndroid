@@ -2,8 +2,8 @@
 <resources>
 
     <string-array name="distritos">
-        <item>¿Donde Vive?</item>
-        <item>ANCON</item>
+        <item>¿Dónde vive?</item>
+        <item>ANCÓN</item>
         <item>ATE</item>
         <item>BARRANCO</item>
         <item>BELLAVISTA</item>
@@ -26,7 +26,7 @@
         <item>LINCE</item>
         <item>LOS OLIVOS</item>
         <item>LURIGANCHO (Chosica)</item>
-        <item>LURIN</item>
+        <item>LURÍN</item>
         <item>MAGDALENA DEL MAR</item>
         <item>MIRAFLORES</item>
         <item>PACHACAMAC</item>
@@ -35,7 +35,7 @@
         <item>PUENTE PIEDRA</item>
         <item>PUNTA HERMOSA</item>
         <item>PUNTA NEGRA</item>
-        <item>RIMAC</item>
+        <item>RÍMAC</item>
         <item>SAN BARTOLO</item>
         <item>SAN BORJA</item>
         <item>SAN ISIDRO</item>

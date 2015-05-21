@@ -69,24 +69,23 @@
         android:orientation="horizontal"
         android:gravity="center">
 
+
         <ImageButton
+            android:id="@+id/btnSerenazgo"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/btnSerenazgo"
-            android:layout_below="@+id/sp_distrito"
-            android:layout_gravity="center"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/selector_btn_green"
+            android:background="@drawable/selector_btn_red"
+            android:layout_marginLeft="10dp"
             android:src="@mipmap/ic_police"
             android:onClick="alertaSerenazgo" />
 
         <ImageButton
+            android:id="@+id/btnBomberos"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/btnBomberos"
-            android:layout_gravity="center"
-            android:background="@drawable/selector_btn_green"
+            android:layout_marginLeft="30dp"
             android:src="@mipmap/ic_firefighter"
+            android:background="@drawable/selector_btn_red"
             android:onClick="alertaBomberos" />
 
     </LinearLayout>

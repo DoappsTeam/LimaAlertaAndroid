@@ -38,7 +38,7 @@
             android:text="Agregar Foto"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#ffffffff"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -65,7 +65,7 @@
             android:text="Agregar Audio"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#ffffffff"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -136,7 +136,8 @@
         android:onClick="alertaTercero"
         android:background="@drawable/selector_btn_gray"
         android:textColor="#FFFFFF"
-        android:text="Alertar por otra Persona" />
+        android:text="Alertar por otra Persona"
+        android:textSize="10dp"/>
 
 
 </LinearLayout>

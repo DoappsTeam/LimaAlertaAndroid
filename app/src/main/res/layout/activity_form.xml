@@ -21,7 +21,7 @@
             android:text="Formulario de Registro"
             android:id="@+id/lblTituloForm"
             android:textColor="#ffffffff"
-            android:textSize="35sp"
+            android:textSize="30dp"
             android:textStyle="bold"
             android:gravity="center"/>
 
@@ -35,7 +35,8 @@
             android:layout_below="@+id/lblTituloForm"
             android:layout_marginTop="20dp"
             android:textColor="#ffffffff"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -47,7 +48,8 @@
             android:layout_below="@+id/txtNombre"
             android:layout_marginTop="20dp"
             android:textColor="#ffffffff"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -71,7 +73,8 @@
             android:layout_below="@+id/txtApellido"
             android:layout_marginTop="20dp"
             android:textColor="#ffffffff"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -83,7 +86,8 @@
             android:layout_below="@+id/txtApellido"
             android:layout_marginTop="20dp"
             android:textColor="#ffffffff"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -105,7 +109,8 @@
             android:layout_below="@+id/textPassword"
             android:layout_marginTop="20dp"
             android:prompt="@string/distrito_prompt"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textSize="20dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -113,8 +118,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Ingrese su Fecha de Nacimiento"
             android:id="@+id/lblfec"
-            android:layout_marginTop="10dp"
-            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
             android:gravity="center"/>
 
         <DatePicker
@@ -148,7 +153,7 @@
             android:text="         Acuerdo de Términos y Condiciones"
             android:id="@+id/lblAcuerdo"
             android:textColor="#ff1161ff"
-            android:textSize="10sp"
+            android:textSize="10dp"
             android:layout_below="@+id/chkAcuerdo"
             android:layout_gravity="left"
             android:textStyle="italic"
@@ -163,7 +168,8 @@
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:onClick="enviarRegistro"
-            android:background="@drawable/selector_btn_gray"/>
+            android:background="@drawable/selector_btn_gray"
+            android:textColor="@color/white"/>
 
         <!--
         <Button

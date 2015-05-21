@@ -13,7 +13,7 @@
         android:text="Login"
         android:id="@+id/lblLogin"
         android:textColor="#ffffffff"
-        android:textSize="37dp"
+        android:textSize="30dp"
         android:gravity="center"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
@@ -31,7 +31,8 @@
         android:layout_alignLeft="@+id/txtPass"
         android:layout_alignStart="@+id/txtPass"
         android:layout_marginTop="50dp"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -43,7 +44,8 @@
         android:layout_below="@+id/lblPass"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
 
 
     <CheckBox
@@ -53,7 +55,8 @@
         android:id="@+id/checkBox"
         android:layout_marginTop="20dp"
         android:textColor="#ffffffff"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:textSize="13dp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -63,7 +66,8 @@
         android:textColor="#ffffffff"
         android:id="@+id/btnIngresar"
         android:onClick="inicio"
-        android:background="@drawable/selector_btn_gray"/>
+        android:background="@drawable/selector_btn_gray"
+        android:textSize="15dp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -72,6 +76,7 @@
         android:textColor="#ffffffff"
         android:id="@+id/btnNewUser"
         android:onClick="registro"
-        android:background="@drawable/selector_btn_blue"/>
+        android:background="@drawable/selector_btn_blue"
+        android:textSize="15dp"/>
 
 </LinearLayout>
