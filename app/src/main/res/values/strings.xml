@@ -3,7 +3,11 @@
     <string name="action_settings">Settings</string>
     <string name="distrito">Distrito</string>
     <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="dni">DNI</string>
     <string name="teléfono">Teléfono</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="contraseña">Contraseña</string>
     <string name="dirección">Dirección</string>
     <string name="providers"></string>
     <string name="distrito_prompt">Elija un Distrito</string>
