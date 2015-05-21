@@ -137,7 +137,7 @@
         android:background="@drawable/selector_btn_gray"
         android:textColor="#FFFFFF"
         android:text="Alertar por otra Persona"
-        android:textSize="10dp"/>
+        android:textSize="14dp"/>
 
 
 
