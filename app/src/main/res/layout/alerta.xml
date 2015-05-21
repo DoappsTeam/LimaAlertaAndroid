@@ -77,12 +77,13 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:padding="10dp"
+            android:padding="15dp"
             android:id="@+id/btnGrabar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="0dp"
-            android:background="@drawable/rec"
+            android:background="@drawable/selector_btn_white"
+            android:src="@mipmap/ic_rec"
             android:onClick="grabar" />
 
         <ImageButton
@@ -91,7 +92,8 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/stop"
+            android:background="@drawable/selector_btn_white"
+            android:src="@mipmap/ic_stop"
             android:onClick="stop" />
     </LinearLayout>
 
@@ -106,7 +108,7 @@
             android:id="@+id/btnSerenazgo"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/selector_btn_green"
+            android:background="@drawable/selector_btn_red"
             android:layout_marginLeft="10dp"
             android:src="@mipmap/ic_police"
             android:onClick="alertaSerenazgo" />
@@ -124,13 +126,16 @@
 
 -->
     <Button
+        android:padding="10dp"
         android:id="@+id/btnTercero"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
+        android:layout_width="230dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:onClick="alertaTercero"
+        android:background="@drawable/selector_btn_gray"
+        android:textColor="#FFFFFF"
         android:text="Alertar por otra Persona" />
 
 

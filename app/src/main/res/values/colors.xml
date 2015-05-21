@@ -24,4 +24,8 @@
     <color name="red_telecom">#e74c3c</color>
     <color name="red_telecom_forte">#c0392b</color>
 
+    <color name="white">#ffffff</color>
+    <color name="white_forte">#F2F1EF</color>
+
+
 </resources>
