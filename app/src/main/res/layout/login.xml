@@ -13,7 +13,7 @@
         android:text="Login"
         android:id="@+id/lblLogin"
         android:textColor="#ffffffff"
-        android:textSize="36sp"
+        android:textSize="37dp"
         android:gravity="center"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
@@ -31,19 +31,19 @@
         android:layout_alignLeft="@+id/txtPass"
         android:layout_alignStart="@+id/txtPass"
         android:layout_marginTop="50dp"
-        android:textColor="#ffffffff" />
+        android:textColor="#ffffff" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:ems="10"
         android:hint="contraseña"
+        android:ems="10"
         android:id="@+id/txtPass"
         android:layout_below="@+id/lblPass"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:textColor="#ffffffff" />
+        android:textColor="#ffffff" />
 
 
     <CheckBox
@@ -58,17 +58,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
         android:text="Ingresar"
+        android:textColor="#ffffffff"
         android:id="@+id/btnIngresar"
-        android:onClick="inicio" />
+        android:onClick="inicio"
+        android:background="@drawable/selector_btn_gray"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Nuevo Usuario"
+        android:textColor="#ffffffff"
         android:id="@+id/btnNewUser"
-        android:onClick="registro" />
-
-
+        android:onClick="registro"
+        android:background="@drawable/selector_btn_blue"/>
 
 </LinearLayout>
