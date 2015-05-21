@@ -21,4 +21,7 @@
     <color name="ebony_clay">#22313F</color>
     <color name="ming">#336E7B</color>
 
+    <color name="red_telecom">#e74c3c</color>
+    <color name="red_telecom_forte">#c0392b</color>
+
 </resources>

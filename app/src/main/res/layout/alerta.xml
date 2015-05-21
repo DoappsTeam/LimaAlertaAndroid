@@ -106,8 +106,9 @@
             android:id="@+id/btnSerenazgo"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/policia"
+            android:background="@drawable/selector_btn_green"
             android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_police"
             android:onClick="alertaSerenazgo" />
 
         <ImageButton
@@ -115,7 +116,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="30dp"
-            android:background="@drawable/bomberos3"
+            android:src="@mipmap/ic_firefighter"
+            android:background="@drawable/selector_btn_red"
             android:onClick="alertaBomberos" />
 
     </LinearLayout>
