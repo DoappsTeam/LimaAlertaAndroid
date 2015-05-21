@@ -8,11 +8,11 @@
 
     <color name="jelly_bean">#2D5050</color>
 
-    <color name="orange_pressed"> #FC5305 </color>
+    <color name="orange_pressed">#FC5305 </color>
     <color name="orange"> #DC6A35 </color>
 
-    <color name="gray_pressed"> #2C3E50 </color>
-    <color name="gray"> #22313F </color>
+    <color name="gray_pressed">#2C3E50</color>
+    <color name="gray">#22313F</color>
 
     <!--<color name="blue_pressed"> #34495e </color>
     <color name="blue"> #2C3E50 </color>-->
