@@ -25,7 +25,7 @@
             android:ems="10"
             android:id="@+id/txtTercero"
             android:layout_below="@+id/logo"
-            android:layout_marginTop="41dp"
+            android:layout_marginTop="35dp"
             android:gravity="center"
             android:textColor="#ffffffff" />
 
@@ -76,7 +76,8 @@
             android:layout_below="@+id/sp_distrito"
             android:layout_gravity="center"
             android:layout_marginRight="30dp"
-            android:background="@mipmap/ic_police"
+            android:background="@drawable/selector_btn_green"
+            android:src="@mipmap/ic_police"
             android:onClick="alertaSerenazgo" />
 
         <ImageButton
@@ -84,7 +85,8 @@
             android:layout_height="100dp"
             android:id="@+id/btnBomberos"
             android:layout_gravity="center"
-            android:background="@mipmap/ic_firefighter"
+            android:background="@drawable/selector_btn_green"
+            android:src="@mipmap/ic_firefighter"
             android:onClick="alertaBomberos" />
 
     </LinearLayout>
