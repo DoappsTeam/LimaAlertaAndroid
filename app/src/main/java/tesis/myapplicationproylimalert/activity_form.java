@@ -26,7 +26,7 @@ public class activity_form extends Activity {
         spinner.setAdapter(adapter);
 
         lblTituloForm = (TextView) findViewById(R.id.lblTituloForm);
-        lblTituloForm.setTypeface(FontUtil.setMotion(this));
+        lblTituloForm.setTypeface(FontUtil.setNeuropol(this));
     }
 
     public void acuerdo(View view) {

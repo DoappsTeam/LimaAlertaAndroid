@@ -12,7 +12,11 @@ public class FontUtil {
         return Typeface.createFromAsset(context.getAssets(), "fonts/bebeas.ttf");
     }
 
-    public static Typeface setMotion(Context context){
-        return Typeface.createFromAsset(context.getAssets(),"fonts/motioncontrol_boldItalic.otf");
+    public static Typeface setQuenn(Context context){
+        return Typeface.createFromAsset(context.getAssets(), "fonts/queen_camelot_regular.ttf");
+    }
+
+    public static Typeface setNeuropol(Context context){
+        return Typeface.createFromAsset(context.getAssets(), "fonts/neuropol_x_rg.ttf");
     }
 }

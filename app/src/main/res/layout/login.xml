@@ -67,7 +67,8 @@
         android:id="@+id/btnIngresar"
         android:onClick="inicio"
         android:background="@drawable/selector_btn_gray"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
     <Button
         android:layout_width="match_parent"
@@ -77,6 +78,7 @@
         android:id="@+id/btnNewUser"
         android:onClick="registro"
         android:background="@drawable/selector_btn_blue"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:textStyle="bold"/>
 
 </LinearLayout>
