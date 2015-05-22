@@ -19,4 +19,10 @@ public class FontUtil {
     public static Typeface setNeuropol(Context context){
         return Typeface.createFromAsset(context.getAssets(), "fonts/neuropol_x_rg.ttf");
     }
+    public static Typeface setGratis(Context context){
+        return Typeface.createFromAsset(context.getAssets(), "fonts/gratis.ttf");
+    }
+    public static Typeface setJoystick(Context context){
+        return Typeface.createFromAsset(context.getAssets(), "fonts/joystick.otf");
+    }
 }

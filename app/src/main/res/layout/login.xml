@@ -23,7 +23,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:hint="DNI"
         android:ems="10"
         android:id="@+id/txtUser"
@@ -59,26 +59,26 @@
         android:textSize="13dp"/>
 
     <Button
+        android:id="@+id/btnIngresar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="10dp"
         android:text="Ingresar"
         android:textColor="#ffffffff"
-        android:id="@+id/btnIngresar"
         android:onClick="inicio"
         android:background="@drawable/selector_btn_gray"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:textStyle="bold"/>
 
     <Button
+        android:id="@+id/btnNewUser"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Nuevo Usuario"
         android:textColor="#ffffffff"
-        android:id="@+id/btnNewUser"
         android:onClick="registro"
         android:background="@drawable/selector_btn_blue"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:textStyle="bold"/>
 
 </LinearLayout>

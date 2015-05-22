@@ -142,7 +142,7 @@
         android:onClick="alertaTercero"
         android:text="Alertar por otra Persona"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:textStyle="bold"/>
 
 </LinearLayout>

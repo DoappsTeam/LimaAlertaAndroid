@@ -15,6 +15,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.media.MediaPlayer;
@@ -47,6 +48,7 @@ public class alerta extends Activity implements OnCompletionListener {
     private LocationListener locListener;
     Object response = "";
     String outputText = "";
+    private Button btnTercero;
     private static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 100;
     private Uri fileUri;
     String ruta = "";
@@ -63,6 +65,9 @@ public class alerta extends Activity implements OnCompletionListener {
 
         rec = (ImageButton)findViewById(R.id.btnGrabar);
         stop = (ImageButton)findViewById(R.id.btnDetener);
+
+        btnTercero = (Button) findViewById(R.id.btnTercero);
+        btnTercero.setTypeface(FontUtil.setJoystick(alerta.this));
 
         rec.setVisibility(View.INVISIBLE);
         stop.setVisibility(View.INVISIBLE);

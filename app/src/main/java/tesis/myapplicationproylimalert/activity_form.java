@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ import android.widget.TextView;
  */
 public class activity_form extends Activity {
     private TextView lblTituloForm;
+    private Button btnEnviarRegistro;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,10 @@ public class activity_form extends Activity {
 
         lblTituloForm = (TextView) findViewById(R.id.lblTituloForm);
         lblTituloForm.setTypeface(FontUtil.setNeuropol(this));
+
+        btnEnviarRegistro = (Button) findViewById(R.id.btnEnviarRegistro);
+        btnEnviarRegistro.setTypeface(FontUtil.setJoystick(activity_form.this));
+
     }
 
     public void acuerdo(View view) {
@@ -43,5 +49,6 @@ public class activity_form extends Activity {
         Intent i = new Intent(this, Login.class);
         startActivity(i);
     }
+
 
 }
