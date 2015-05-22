@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class portada extends Activity {
 
     // Duración en milisegundos que se mostrará el splash
-    private final int DURACION_SPLASH = 5000; // 3 segundos
+    private final int DURACION_SPLASH = 3000; // 3 segundos
     private TextView lblTituloForm;
 
     @Override
